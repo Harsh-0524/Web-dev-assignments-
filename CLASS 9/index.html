@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event propogation</title>
+</head>
+  <style>
+        div{
+            min-width: 100 px;
+            min-height: 100 px;
+            padding:30px;
+            border: 1px solid;
+        }
+  </style>
+<body>
+      <script src="script.js"></script>
+      <div id="grandparent" style="background-color: green;" >
+       <div id="parent" style="background-color: red;">
+        <div id="child" style="background-color: yellow;"></div>
+       </div> 
+      </div>
+<script src="script.js"></script>
+</body>
+</html> 
+
+
+
+
